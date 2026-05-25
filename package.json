@@ -1,0 +1,17 @@
+{
+  "name": "anime-agentic-ai",
+  "private": true,
+  "packageManager": "pnpm@9.0.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --dir apps/web dev",
+    "build": "pnpm --dir apps/web build",
+    "lint": "pnpm --dir apps/web lint",
+    "test": "pnpm --dir apps/web test",
+    "index:codebase": "bash scripts/index-codebase.sh",
+    "tarball": "bash scripts/make-tarball.sh"
+  }
+}

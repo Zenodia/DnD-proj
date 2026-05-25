@@ -1,0 +1,9 @@
+services:
+  web:
+    image: node:22-bookworm
+    working_dir: /workspace
+    volumes:
+      - ./:/workspace
+    command: bash -lc "corepack enable && pnpm install && pnpm --dir apps/web dev -- --hostname 0.0.0.0"
+    ports:
+      - "3000:3000"

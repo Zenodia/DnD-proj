@@ -1,0 +1,20 @@
+version: 1
+repo:
+  include:
+    - apps/**
+    - packages/**
+    - docs/**
+    - specs/**
+    - guards/**
+    - infra/**
+    - env/**
+    - scripts/**
+  exclude:
+    - node_modules/**
+    - .next/**
+    - dist/**
+    - build/**
+index:
+  mode: semantic
+  chunk_size: 800
+  overlap: 120
