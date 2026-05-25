@@ -1,1 +1,1 @@
-export * from "./missions"
+export * from './chapters'

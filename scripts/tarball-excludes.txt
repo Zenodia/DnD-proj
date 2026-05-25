@@ -1,0 +1,28 @@
+# npm / pnpm install output (recreated on target)
+node_modules
+
+# Next.js / build artifacts (recreated: npm run build)
+.next
+dist
+build
+coverage
+.turbo
+
+# secrets & local config (never ship)
+.env
+.env.local
+.env.production
+.env.development
+.game-config.json
+.game-config.json.tmp
+
+# Claude Code local file history (machine-specific)
+.claude/file-history
+
+# regenerated / machine-local
+.codegraph
+.DS_Store
+__pycache__
+
+# don't pack prior archives
+*.tar.gz

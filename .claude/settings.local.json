@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(gsd:new-project)",
+      "Skill(gsd:ai-integration-phase)",
+      "WebSearch"
+    ]
+  }
+}

@@ -8,3 +8,5 @@ coverage
 !.env.example
 .DS_Store
 .codegraph
+.game-config.json
+.game-config.json.tmp
